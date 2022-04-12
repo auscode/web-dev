@@ -1,0 +1,141 @@
+body{
+  text-align: center;
+  font-family: "Ubuntu";
+}
+/* container */
+.container-fluid{
+  padding: 7% 15%;
+}
+/* color section */
+.colored-section{
+  color:#ffff;
+  background-color: #FF0000;
+}
+.white-section{
+  background-color: #FFFF;
+}
+
+/* title */
+#title.container-fluid{
+  text-align: left;
+  padding: 3% 15% 7%;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: "Montserrat";
+}
+p{
+  color:#8f8f8f;
+}
+.big-heading{
+  line-height: 1.5;
+  font-size: 3.5rem;
+}
+/* button */
+.download-button{
+  margin: 5% 3% 5% 0;
+  font-family: "Ubuntu";
+}
+/* Navigation BAR  */
+.navbar{
+  font-family: "Ubuntu";
+  padding-bottom: 4.5rem;
+}
+.nav-link{
+  font-size: 1.2rem;
+  /* font-family: "Montserrat-light"; */
+}
+.nav-item{
+  padding: 0 18px;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+/* title image */
+.title-image{
+  width: 25%;
+  transform: rotate(25deg);
+  position:absolute;
+  right: 25%;
+}
+@media (max-width: 1128px){
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
+/* features section */
+#features{
+  background: white;
+  /* zindiex doesnt work without position */
+  position: relative;
+}
+.feature-box{
+  padding:5%;
+ }
+.feature-title{
+  font-size: 1.5rem;
+}
+/* icons from font awesome */
+.icon{
+  color: #ef8172;
+  margin: 1rem;
+}
+.icon:hover{
+  color: #FF0000;
+}
+/* testimonials */
+#testimonials{
+}
+.testimonial-img{
+  margin:20px;
+  width: 10%;
+  border-radius: 50%;
+}
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+  text-align: center;
+}
+/* Presss */
+#press{
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logocarousel{
+  width:15%;
+  margin:20px 50px;
+}
+/* carousel */
+
+/*section just above price */
+.sxn-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/* cards */
+.card-struct{
+  margin-top: 2rem;
+}
+.card-title{
+  font-size: 3rem;
+  line-height: 1.5;
+  text-align: center;
+}
+/* cta */
+
+/* pricing  */
+#pricing{
+  padding:100px;
+}
+/* footer */
+#footer{
+}
+.footer-icon{
+  padding:20px 10px;
+}
